@@ -79,6 +79,7 @@ cc_library(
     name = "trt_engine_op_kernel",
     srcs = [
         "kernels/trt_engine_op.cc",
+        "ops/trt_engine_op.cc",
     ],
     hdrs = [
         "kernels/trt_engine_op.h",
