@@ -84,7 +84,6 @@ cc_library(
     ],
     hdrs = [
         "kernels/trt_engine_op.h",
-        "ops/trt_engine_op.h",
         "shape_fn/trt_shfn.h",
     ],
     copts = tf_copts(),
