@@ -471,7 +471,7 @@ tf_cc_shared_object(
         "//tensorflow/cc:scope",
         "//tensorflow/cc/profiler",
         "//tensorflow/core:tensorflow",
-        //tensorflow/contrib/tensorrt:trt_engine_op_kernel,
+        "//tensorflow/contrib/tensorrt:trt_engine_op_kernel",
     ] + if_ngraph(["@ngraph_tf//:ngraph_tf"]),
 )
 
