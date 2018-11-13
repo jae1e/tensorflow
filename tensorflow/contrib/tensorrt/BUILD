@@ -79,12 +79,9 @@ cc_library(
     name = "trt_engine_op_kernel",
     srcs = [
         "kernels/trt_engine_op.cc",
-        "ops/trt_engine_op.cc",
-        "shape_fn/trt_shfn.cc",
     ],
     hdrs = [
         "kernels/trt_engine_op.h",
-        "shape_fn/trt_shfn.h",
     ],
     copts = tf_copts(),
     visibility = ["//visibility:public"],
