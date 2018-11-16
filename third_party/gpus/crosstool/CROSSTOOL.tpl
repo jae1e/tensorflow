@@ -23,6 +23,10 @@ default_toolchain {
   toolchain_identifier: "local_linux"
 }
 default_toolchain {
+  cpu: "aarch64"
+  toolchain_identifier: "local_linux"
+}
+default_toolchain {
   cpu: "x64_windows"
   toolchain_identifier: "local_windows"
 }
